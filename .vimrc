@@ -1,5 +1,7 @@
+source ~/.vimrc
+ 
 syntax on
-
+ 
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
@@ -10,6 +12,7 @@ Plug 'airblade/vim-gitgutter'
 
 "Theme"
 Plug 'flazz/vim-colorschemes'
+Plug 'EdenEast/nightfox.nvim'
 
 call plug#end()
 
@@ -21,3 +24,6 @@ set number
 
 "Show the filename in the window titlebar"
 set title
+
+"Enable the colorscheme"
+colorscheme nordfox
